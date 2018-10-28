@@ -7,24 +7,22 @@ This Udacity project creates a notary service utilizing a proof of existence sma
 
 ## Console Output for Rinkeby Deployment:
 ```
-I unfortunately could not access the Rinkeby network from my work pc, so below is the information of migrating to the development network.
-C:\Users\203014767\Documents\Python\javascript\zep>truffle deploy --network rinkeby --reset
+$ truffle deploy --network rinkeby --reset
 Using network 'rinkeby'.
 
 Running migration: 1_initial_migration.js
-  Deploying Migrations...
-Error encountered, bailing. Network state unknown. Review successful transactions manually.
-insufficient funds for gas * price + value
-
-C:\Users\203014767\Documents\Python\javascript\zep_final>truffle deploy --network development --reset
-Using network 'development'.
-
-Running migration: 1_initial_migration.js
-  Deploying Migrations...
-  ... 0xf0e8ae29ab043df2bb60dac5554d97762830965f8d7a7269a136efa2f71546f6
-  Migrations: 0xf315a2b04bc4ce47a61a7cb3bfee67f7b3678a67
+  Replacing Migrations...
+  ... 0x49f2aeba4e12d3e919b940975d589db079b0dadc40ac3cb50e969d20a26cf300
+  Migrations: 0x122934e8520db7b1d738abf63ede6286383a3a50
 Saving successful migration to network...
-  ... 0x37d52c404f2ad8b854a0ccbd9e624c5d4f33d966684e8742aae54f39139f4025
+  ... 0x03c783f87888fa85cdd55a6a81decab4864248e104048ed55ea91c8780457672
+Saving artifacts...
+Running migration: 2_deploy_contracts.js
+  Replacing StarNotary...
+  ... 0x3ec2fd3937ea6345695c43d53401ee2337ef65d8862d6930ff6ac0b2f6ea940c
+  StarNotary: 0xe50abf4571908e2b7df62622c3c5213d8564aba0
+Saving successful migration to network...
+  ... 0x8c75600a6f5ac78dd48482153718d5745b8e9d23f7461e158a268db05b747c0f
 Saving artifacts...
 
 ```
