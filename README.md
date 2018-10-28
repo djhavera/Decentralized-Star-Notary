@@ -8,7 +8,7 @@ This Udacity project creates a notary service utilizing a proof of existence sma
 ## Console Output for Rinkeby Deployment:
 ```
 I unfortunately could not access the Rinkeby network from my work pc, so below is the information of migrating to the development network.
-C:\Users\203014767\Documents\Python\javascript\zep_final>truffle deploy --network rinkeby --reset
+C:\Users\203014767\Documents\Python\javascript\zep>truffle deploy --network rinkeby --reset
 Using network 'rinkeby'.
 
 Running migration: 1_initial_migration.js
