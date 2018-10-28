@@ -17,6 +17,7 @@
     "mapbox-gl": "^0.50.0",
     "openzeppelin-solidity": "2.0.0-rc.1",
     "sinon": "^7.1.0",
+    "truffle-hdwallet-provider": "0.0.6",
     "truffle-test-utils": "^0.1.0"
   },
   "devDependencies": {
