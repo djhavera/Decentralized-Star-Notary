@@ -26,6 +26,12 @@ Saving successful migration to network...
 Saving artifacts...
 
 ```
+## Contract:
+https://rinkeby.etherscan.io/address/0xe50abf4571908e2b7df62622c3c5213d8564aba0
+
+## Contract hash:
+https://rinkeby.etherscan.io/tx/0x3ec2fd3937ea6345695c43d53401ee2337ef65d8862d6930ff6ac0b2f6ea940c
+
 
 ## Testing in Truffle with Chai Assertions and Mocha Framework
 
