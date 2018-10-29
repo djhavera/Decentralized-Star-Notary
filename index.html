@@ -24,6 +24,11 @@
   </div>
 
   <div class="row">
+    <label class="w-1/2 bold" for="star-starCoordinators">Star story:</label>
+    <input class="w-1/2" id="star-starCoordinators" name="star-starCoordinators" required>
+  </div>
+
+  <div class="row">
     <label class="w-1/2 bold" for="star-ra">ra:</label>
     <input class="w-1/2" id="star-ra" name="star-ra" required>
   </div>
@@ -561,7 +566,7 @@
       var dec = document.getElementById('star-dec').value
       var mag = document.getElementById('star-mag').value
       var story = document.getElementById('star-story').value
-      var starCoordinators = document.getElementById('star-string starCoordinators').value
+      var starCoordinators = document.getElementById('star-starCoordinators').value
       var tokenId = document.getElementById("star-tokenId").value;
 
       starNotary.createStar.sendTransaction(name, starCoordinators, starStory, dec, mag, cent, tokenId, {
